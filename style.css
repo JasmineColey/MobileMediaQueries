@@ -1,1 +1,174 @@
+@media only screen and (min-width : 480px) {
+body {
+  margin: 0;
+  padding: 3vmin 6vmin 0vmin 6vmin;
+  background-image:linear-gradient(to bottom right, #BEEBEF, #2CC5EE, #D2B4DD , #DACCDA,#DACCDA,#BEEBEF);
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #222;
+  font-family: 'Indie Flower',cursive;
 
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 3vmin;
+  font-family: 'Spartan', sans-serif;
+  line-height: 5vmin;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 13vmin;
+  color: #660099;
+  text-align: center;
+
+}
+
+.mainGrid {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 2.5vmin;
+  grid-row-gap: 10vmin;
+}
+
+.mainGrid * {
+  box-sizing: border-box;
+  overflow: hidden;
+  /* padding: 1vmin; */
+  /* border: 1px solid #333; */
+  /* background-color: #eee; */
+}
+
+.fullWidth {
+  grid-column-end: span 8;
+}
+.Self {
+
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2vmin 5vmin 2vmin 5vmin;
+  margin-bottom: 3vmin;
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #2CC5EE;
+  padding: 4vmax;
+  border-radius: 5vmax;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.menu a {
+  /* text-transform: uppercase; */
+  font-weight: bolder;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  grid-row-end: span 3;
+  background-image: url('https://cdn.vox-cdn.com/thumbor/yXImK8fneAvPqBYbtiYW-yVGVW0=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19586960/meditation_woman_GettyImages_1126494848.jpg');
+  background-position: center;
+  background-size: cover;
+  justify-self: stretch;
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  height: 200px;
+}
+
+.breaker {
+  border-bottom: 1vmin solid #222;
+  scroll-behavior: smooth;
+}
+
+.item-start-4 {
+  grid-column-start: 5;
+}
+
+.item-3x4 {
+  grid-column-end: span 3;
+  grid-row-end: span 4;
+}
+
+.item-5x2 {
+  grid-column-end: span 5;
+  grid-row-end: span 2;
+
+}
+
+
+
+.item-4x2 {
+  grid-column-end: span 4;
+  grid-row-end: span 2;
+}
+
+.item-4x4 {
+  grid-column-end: span 4;
+  grid-row-end: span 0.5;
+}
+
+.item-2x4 {
+  grid-column-end: span 2;
+  grid-row-end: span 0.5;
+}
+.item-4x5 {
+  grid-column-end: span 6;
+  grid-row-end: span 8;
+}
+.item-2x2 {
+  grid-column-end: span 2;
+}
+
+.item-2x2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.item-2x1 {
+  grid-column-end: span 2;
+}
+
+.wide-img {
+  width: 100%;
+}
+
+.locations-4x4 {
+  grid-column-end: span 2;
+  grid-row-end: span 4;
+  text-align:left;
+  font-size: 4vmin;
+  width:70%
+}
+}}
